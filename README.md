@@ -1,3 +1,4 @@
 # pygame_gui_001
 
-example test for https://github.com/MyreMylar/pygame_gui/issues/254
+Simple test with pygame_gui and sqlite 
+
