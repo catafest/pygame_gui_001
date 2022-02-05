@@ -156,7 +156,7 @@ class Testing(UIWindow):
                                           pygame.Rect((0,
                                                        self.page_y_start_pos),
                                                       self.remaining_window_size),
-                                          manager=self,
+                                          manager=self.ui_manager,
                                           container=self,
                                           parent_element=self)
 

@@ -17,8 +17,8 @@ class BasicWindowApp:
         self.clock = pygame.time.Clock()
         self.is_running = True
 
-        self.basic_window = classGUI.BasicWindow((25, 25), self.ui_manager)
-        self.medicalFolders = testGUI.Testing(manager=self.ui_manager)
+
+        self.Folders = testGUI.Testing(manager=self.ui_manager)
 
     def run(self):
         while self.is_running:
